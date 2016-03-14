@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ruby:
+  title: bla bla bla
+  description: fdsgfhdsgfhdsgfgdsds fgdsh fghjdg
+  image_url: 1.jpg
+  price: 9.99
+
+
