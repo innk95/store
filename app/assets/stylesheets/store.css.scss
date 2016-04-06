@@ -1,4 +1,6 @@
 .store {
+  background: #aaaaaa;
+
    h1 {
      margin: 0;
      padding-bottom: 0.5em;
@@ -29,13 +31,23 @@
    margin-left: 100px;
    margin-top: 0.5em;
    margin-bottom: 0.8em;
+   
+   form, div {
+       display: inline;
+  }
 }
 
   .price{
      color: #44a;
      font-weight: bold;
-     margin-right: 3em;
+     margin-right: 5em;
        }
    }
-}
- 
+
+ table {border-collapse: separate;
+         background-color: #eee;}
+       TD, TH {
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #fff; /* Рамка вокруг ячеек */  
+           }
+ }

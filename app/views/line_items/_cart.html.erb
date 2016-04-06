@@ -1,0 +1,21 @@
+<% unless cart.line_items.empty? %>
+<p id="notice"><%= notice %></p>
+
+<h2 class="well"> Твоя корзина </h2>
+
+<table>
+    <% render(cart.line_items) %>
+	<% @cart.line_items.each do |item| %>
+	   
+    <% end %>
+    <tr class="total_line">
+    	<td colspan="2">Всего&nbsp;&nbsp;</td>
+    	<td class="total_cell"><%= number_to_currency(cart.total_price) %> </td>
+    </tr>
+</table> 
+<br>
+
+<%= button_to 'Empty cart', cart, method: :delete,
+ confirm: 'Are you sure?'%>
+ <% end %>
+

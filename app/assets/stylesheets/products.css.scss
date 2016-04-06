@@ -1,0 +1,60 @@
+.products {
+  background: #aaaaaa;
+     table {
+         background-color: #eee;
+         border-collapse: collapse;
+           }
+ table {border-collapse: separate;
+         background-color: #ddd;}
+       TD, TH {
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #fff; /* Рамка вокруг ячеек */  
+           }
+     table tr td {
+           padding: 5px;
+           vertical-align: top;
+       }
+     .list_image {
+        width: 150px;
+       }
+     .list_description {
+        width: 60%;
+        dl {
+           margin: 0;
+        } 
+        dt {
+            color: #224;
+            font-weight: bold;
+            font-size: larger;
+          }
+        dd {
+            margin: 0;
+          }
+       } 
+ 
+     .list_action: {
+           text-align: right;
+          padding-left: 1em;
+        }
+          font-size: x-small;
+     .list_line_even: {
+          background: #55f8f8;
+        }
+     .list_line_odd: {
+          background: #f8b088;
+        }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
